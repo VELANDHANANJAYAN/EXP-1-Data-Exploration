@@ -66,6 +66,7 @@ plt.show()
 - **Coefficient (b₁):** The change in `y` for each unit increase in `x`.
 
 **Example output:**
+
   **Intercept:** 0.6237623762376234  
   **Coefficient:** 1.0693069306930694
 
@@ -75,6 +76,7 @@ plt.show()
 - **R-squared (R²):** A measure of how well the independent variable(s) explain the variability in the dependent variable. An R² closer to 1 means a better model fit.
 
 **Example output:**
+
   **Mean Squared Error:** 0.5315165179884329  
   **R-squared:** 0.9114139136685945
 
