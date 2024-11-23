@@ -114,23 +114,27 @@ plt.show()
 
 ### OUTPUT:
 
-#### 1. Covariance Matrix:
+### 1. Covariance Matrix:
 The covariance matrix shows the extent to which variables vary together.
 
-                Variable1  Variable2  Variable3  Variable4
-Variable1      250.0      250.0      300.0      125.0
-Variable2      250.0      250.0      300.0      125.0
-Variable3      300.0      300.0      360.0      150.0
-Variable4      125.0      125.0      150.0       62.5
+|            | Variable1 | Variable2 | Variable3 | Variable4 |
+|------------|-----------|-----------|-----------|-----------|
+| **Variable1** | 250.0     | 250.0     | 300.0     | 125.0     |
+| **Variable2** | 250.0     | 250.0     | 300.0     | 125.0     |
+| **Variable3** | 300.0     | 300.0     | 360.0     | 150.0     |
+| **Variable4** | 125.0     | 125.0     | 150.0     | 62.5      |
 
-#### 2. Correlation Matrix:
-The correlation matrix displays the strength of relationships between variables. Correlation values range from -1 to +1:
 
-              Variable1  Variable2  Variable3  Variable4
-Variable1      1.00       1.00       1.00       1.00
-Variable2      1.00       1.00       1.00       1.00
-Variable3      1.00       1.00       1.00       1.00
-Variable4      1.00       1.00       1.00       1.00
+### 2. Correlation Matrix:
+The correlation matrix displays the strength of relationships between variables. Correlation values range from -1 to +1.
+
+|            | Variable1 | Variable2 | Variable3 | Variable4 |
+|------------|-----------|-----------|-----------|-----------|
+| **Variable1** | 1.00      | 1.00      | 1.00      | 1.00      |
+| **Variable2** | 1.00      | 1.00      | 1.00      | 1.00      |
+| **Variable3** | 1.00      | 1.00      | 1.00      | 1.00      |
+| **Variable4** | 1.00      | 1.00      | 1.00      | 1.00      |
+
 
 #### 3. Correlation Heatmap:
 A heatmap will be generated using Seaborn, visually representing the correlation matrix with a color gradient. Each cell's value will also be displayed on the heatmap.
