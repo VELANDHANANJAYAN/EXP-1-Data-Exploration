@@ -134,9 +134,10 @@ plt.pie(df['Values'], labels=df['Category'], autopct='%1.1f%%', colors=['gold', 
 plt.title('Pie Chart of Values by Category', fontsize=16)
 plt.show()
 ```
-### Interpretation
- Category C makes up the largest portion, followed by B.
- Category D is the smallest slice.
+#### Interpretation:
+- **Category C** makes up the largest portion, followed by **B**.  
+- **Category D** is the smallest slice.
+  
 ![image](https://github.com/user-attachments/assets/3b836999-ed69-4556-a0d7-e2c4639f6a49)
 
  
