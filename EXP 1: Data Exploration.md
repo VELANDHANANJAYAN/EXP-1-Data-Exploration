@@ -153,9 +153,10 @@ plt.legend()
 plt.grid()
 plt.show()
 ```
-### Interpretation
-  Growth shows a steady increase over the years.
-  Significant jump between 2023 and 2024.
+#### Interpretation:
+- **Growth** shows a steady increase over the years.  
+- There is a **significant jump** between **2023** and **2024**.
+
 
 ![image](https://github.com/user-attachments/assets/ffad04c3-b697-40d3-bf5a-76891869a93e)
 
