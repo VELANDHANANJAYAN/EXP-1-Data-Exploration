@@ -1,9 +1,9 @@
 # EXP 1: Data Exploration
 ## A. Importing and Cleaning Data and Perform basic data exploration (mean, median, mode)
-## 1. Tools: Python (Pandas), Excel
-## 2. Do Load datasets (CSV, Excel) and Handle missing values
+### 1. Tools: Python (Pandas), Excel
+### 2. Do Load datasets (CSV, Excel) and Handle missing values
 
-## Program and Output:
+### Program and Output:
 ## Step 1: Load Datasets (CSV, Excel)
 ```python
 import pandas as pd
