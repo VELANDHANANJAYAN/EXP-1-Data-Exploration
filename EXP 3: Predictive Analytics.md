@@ -188,10 +188,63 @@ plt.tight_layout()
     **Logistic Regression Accuracy:** 0.9777777777777777  
     **Decision Tree Accuracy:** 0.9777777777777777
 
-2. **Confusion Matrices**  
-The confusion matrix displays the true positive, false positive, true negative, and false negative predictions for each class.
+# Confusion Matrices
 
-**Example output (for logistic regression and decision tree):**
+The confusion matrix displays the **true positive (TP)**, **false positive (FP)**, **true negative (TN)**, and **false negative (FN)** predictions for each class.
 
-**Confusion Matrix for Logistic Regression:**
+## Example Output (for Logistic Regression and Decision Tree)
+
+[[16  0  0]
+ [ 0 14  1]
+ [ 0  0 14]]    
+
+### Confusion Matrix for Logistic Regression:
+
+[[16  0  0]
+ [ 0 14  1]
+ [ 0  0 14]]
+
+ 
+---
+
+### Definitions:
+- **True Positives (TP)**: Diagonal elements (e.g., `16` for class `0` in Logistic Regression).
+- **False Positives (FP)**: Off-diagonal elements (e.g., `1` for class `1` predicting class `2`).
+- **False Negatives (FN)**: Off-diagonal elements (e.g., `1` for class `2` predicting class `1`).
+# Confusion Matrix Visualization
+
+The confusion matrices will be displayed as **heatmaps** for easy interpretation. The heatmaps highlight the counts for each prediction outcome.
+
+![image](https://github.com/user-attachments/assets/cea6698f-3812-4d58-ac33-6b1ee964b018)
+
+
+## Explanation
+
+### 1. Logistic Regression:
+- Logistic Regression is a statistical method used for **binary** or **multiclass classification problems**.
+- The model predicts the **probability** of a particular class.
+
+### 2. Decision Trees:
+- Decision Trees split the data into subsets based on **feature values**.
+- Each **node** in the tree represents a feature decision, and each **leaf** represents a class label.
+
+### 3. Confusion Matrix:
+- A Confusion Matrix is a useful tool for understanding the performance of a classification model.
+- It shows the **true vs. predicted labels**, helping to calculate key metrics like:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1-score
+
+### 4. Accuracy:
+- Accuracy is calculated as:
+  \[
+  \text{Accuracy} = \frac{\text{Correct Predictions (Sum of Diagonal Elements)}}{\text{Total Predictions (Sum of All Elements in the Matrix)}}
+  \]
+
+### 5. Heatmap Visualization:
+- The heatmaps allow us to visually identify:
+  - Where predictions are **correct**.
+  - Where the model is making **mistakes**.
+
 
